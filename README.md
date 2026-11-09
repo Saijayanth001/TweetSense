@@ -122,29 +122,6 @@ Evaluated on a strictly held-out stratified test set of **10,000 tweets** (5,000
 
 > **Architectural Insight**: While the Bidirectional LSTM captures long-range bidirectional semantics, **Logistic Regression with N-gram TF-IDF and linguistically-sound preprocessing** achieved the highest overall test accuracy (76.47%) and ROC-AUC (0.8496) while training **180x faster** and offering sub-millisecond inference latency with full interpretability.
 
----
-
-## 📊 Visual Analytics Gallery
-
-### 1. Exploratory Data Analysis & Length Distributions
-![EDA Distributions](figures/eda_distributions.png)
-
-### 2. Dual WordClouds: Negative vs. Positive Lexicons
-![WordClouds](figures/wordclouds.png)
-
-### 3. Top Informative Bigrams per Sentiment Class
-![Top Bigrams](figures/top_bigrams.png)
-
-### 4. Deep Learning Bi-LSTM Training Trajectory
-![BiLSTM Training](figures/bilstm_history.png)
-
-### 5. Multi-Model Confusion Matrices
-![Confusion Matrices](figures/confusion_matrices.png)
-
-### 6. Combined Receiver Operating Characteristic (ROC) Comparison
-![ROC Curves](figures/roc_curves.png)
-
----
 
 ## 📁 Project Directory Structure
 
