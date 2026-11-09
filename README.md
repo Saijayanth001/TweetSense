@@ -202,6 +202,8 @@ print(f"Probability: {result['positive_probability']}")
 # Confidence: 78.4%
 ```
 
+### 4. Twitter Chats Dataset
+https://www.kaggle.com/datasets/saijayanthbandaru/twitter-chats
 ---
 
 ## 🔍 Error Analysis & Qualitative Diagnostics
